@@ -1,24 +1,31 @@
 body {
-  color: brown;
+  /* color: brown; */
+  color:#F58A07;
 }
 
 h1 {
-  color: red;
+  /* color: red; */
+  color:#909CC2;
 }
 
 .quote {
-  color: gray;
+  /* color: gray; */
+  color: #084887;
 }
 
 .quote.narrator {
-  color: black;
+  /* color: black; */
+  color: #B098A4;
 }
 
 #intro p {
-  color: green;
+  /* color: green; */
+  color: #F9AB55;
+
 }
 
 .super-important-omg {
   font-size: 20px;
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-color: #F7F5FB;
 }
