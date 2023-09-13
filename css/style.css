@@ -1,25 +1,50 @@
-body {
+@font-face {
+  font-family: 'Monaco';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Monaco'), url('Monaco.woff') format('woff');
+  }
+  
+  body {
   /* color: brown; */
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   color:#F58A07;
+  /* text-align: center; */
+  background-color: pink;
+  padding-left: 20px;
 }
 
 h1 {
   /* color: red; */
+  /* font-family: 'Monaco', sans-serif; */
+  font-family: 'Shrikhand', serif;
+  font-weight:900;
   color:#909CC2;
+  opacity: 0.5;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color:#F58A07;
 }
 
 .quote {
   /* color: gray; */
   color: #084887;
+  display: block;
+  
 }
 
 .quote.narrator {
   /* color: black; */
+  font-family: 'Oswald', sans-serif;
   color: #B098A4;
 }
 
 #intro p {
   /* color: green; */
+   font-family: 'Monaco', sans-serif;
   color: #F9AB55;
 
 }
@@ -27,5 +52,5 @@ h1 {
 .super-important-omg {
   font-size: 20px;
   /* background-color: yellow; */
-  background-color: #F7F5FB;
+  background-color: #450eb4;
 }
